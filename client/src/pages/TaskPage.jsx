@@ -1,7 +1,9 @@
+import TaskList from "../components/TasksList"
+
 const TaskPage = ()=> {
     return (
         <div>
-            TaskPage
+            <TaskList />
         </div>
     )
 }
