@@ -22,6 +22,10 @@ function App() {
           path='/tasks-create'
           element={ <TaskFormPage/> }
         />
+        <Route 
+          path='/tasks/:id'
+          element={ <TaskFormPage/> }
+        />
       </Routes>
     </BrowserRouter>
   )
